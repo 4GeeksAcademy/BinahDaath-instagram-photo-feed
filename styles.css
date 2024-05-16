@@ -1,0 +1,25 @@
+
+.card_container{ 
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    background-color: gray;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 700px;
+    margin: auto;
+    background-color: white;
+}
+.card_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.head{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
